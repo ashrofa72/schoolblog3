@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+.container {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 15px;
+  font-family: 'Almarai';
+}
+.container h1 {
+  margin-bottom: 10px;
+}
+.container p {
+  margin-bottom: 15px;
+}
+.container img {
+  border: 2px solid black;
+  text-align: center;
+}
+.uploadButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Almarai';
+  margin-top: 20px;
+}

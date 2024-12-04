@@ -1,0 +1,44 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  direction: rtl;
+  height: 100%;
+}
+
+.container h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Almarai';
+}
+
+.formgroup {
+  margin-bottom: 20px;
+}
+
+.formgroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formgroup input,
+.formgroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #2f5db3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formgroup button:hover {
+  background-color: #45a049;
+}

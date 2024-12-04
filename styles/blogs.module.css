@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+.container {
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Almarai';
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.blog {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.blogcontent {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.blogimage {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.noblogsmessage {
+  font-size: 18px;
+  font-style: italic;
+}
+.uploadButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Almarai';
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}

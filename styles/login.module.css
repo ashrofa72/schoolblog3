@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+.container {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Almarai';
+}
+.container h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.buttons {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.butarea {
+  display: flex;
+  justify-content: center;
+}
+.formgroup {
+  margin-bottom: 20px;
+}
+
+.formgroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formgroup input,
+.formgroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

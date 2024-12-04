@@ -1,0 +1,13 @@
+.container {
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  flex-direction: column;
+  font-family: 'Almarai';
+}
+.container h1 {
+  text-align: center;
+}

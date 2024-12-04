@@ -1,0 +1,13 @@
+.container {
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.container h1 {
+  margin-top: 20px;
+}
+.searchdata {
+  text-align: center;
+}
